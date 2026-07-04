@@ -1,0 +1,9 @@
+# Original uploaded photos (unpublished raw source, faces, un-optimized) —
+# the site only needs the compressed copies in assets/covers/*.jpg
+/漫画作品/
+
+# Local Claude Code dev config (not part of the published site)
+/.claude/
+
+# OS cruft
+.DS_Store

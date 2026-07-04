@@ -1,0 +1,14 @@
+<svg viewBox="0 0 2400 1350" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><rect width="2400" height="1350" fill="#FAFAF8"/><defs>
+      <radialGradient id="g-home-hero-hero" cx="33%" cy="27%" r="90%">
+        <stop offset="0%" stop-color="#B9BDB4" stop-opacity="0.58"/>
+        <stop offset="100%" stop-color="#FAFAF8" stop-opacity="0"/>
+      </radialGradient>
+      
+    <filter id="grain-home-hero-hero">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="42" result="noise"/>
+      <feColorMatrix in="noise" type="matrix"
+        values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.02 0"/>
+      <feComposite operator="over" in2="SourceGraphic"/>
+    </filter>
+
+    </defs><rect width="2400" height="1350" fill="url(#g-home-hero-hero)"/><path d="M 1698.7 776.5 Q 1698.7 776.5 1638.5 907.9 Q 1578.2 1039.2 1446.9 1099.4 Q 1315.5 1159.6 1153.9 1129.6 Q 992.4 1099.6 961.5 938.0 Q 930.7 776.5 991.8 645.2 Q 1052.9 513.9 1184.2 393.6 Q 1315.5 273.3 1490.8 349.6 Q 1666.1 425.8 1682.4 601.2 Z" fill="#D8D3C8" opacity="0.55"/><path d="M 1452.0 520.4 Q 1452.0 520.4 1400.1 578.5 Q 1348.2 636.6 1281.7 635.6 Q 1215.2 634.7 1160.7 577.6 Q 1106.1 520.4 1156.2 455.6 Q 1206.3 390.8 1286.9 380.9 Q 1367.4 371.0 1409.7 445.7 Z" fill="#B9BDB4" opacity="0.35"/><circle cx="1385.2" cy="719.0" r="207.7" fill="none" stroke="#B9BDB4" stroke-width="1" opacity="0.4"/><circle cx="1339.3" cy="479.4" r="268.1" fill="none" stroke="#D8D3C8" stroke-width="1" opacity="0.4"/><line x1="0" y1="674.8" x2="2400" y2="607.3" stroke="#B9BDB4" stroke-width="0.6" opacity="0.25"/><rect width="2400" height="1350" fill="transparent" filter="url(#grain-home-hero-hero)"/></svg>

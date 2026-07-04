@@ -1,0 +1,14 @@
+<svg viewBox="0 0 1000 1200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><rect width="1000" height="1200" fill="#F1EFEA"/><defs>
+      <radialGradient id="g-portrait-portrait" cx="68%" cy="33%" r="90%">
+        <stop offset="0%" stop-color="#8C9A8D" stop-opacity="0.76"/>
+        <stop offset="100%" stop-color="#F1EFEA" stop-opacity="0"/>
+      </radialGradient>
+      
+    <filter id="grain-portrait-portrait">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="77" result="noise"/>
+      <feColorMatrix in="noise" type="matrix"
+        values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.02 0"/>
+      <feComposite operator="over" in2="SourceGraphic"/>
+    </filter>
+
+    </defs><rect width="1000" height="1200" fill="url(#g-portrait-portrait)"/><path d="M 897.8 662.6 Q 897.8 662.6 887.6 804.0 Q 877.3 945.4 735.9 973.0 Q 594.5 1000.6 465.8 960.4 Q 337.1 920.1 316.3 791.3 Q 295.5 662.6 327.1 544.7 Q 358.6 426.7 476.6 406.7 Q 594.5 386.6 728.0 391.2 Q 861.4 395.7 879.6 529.2 Z" fill="#C9BBA8" opacity="0.55"/><path d="M 771.4 792.7 Q 771.4 792.7 729.4 862.2 Q 687.3 931.8 608.3 929.5 Q 529.3 927.2 482.3 859.9 Q 435.3 792.7 470.8 705.5 Q 506.4 618.4 596.4 636.7 Q 686.5 654.9 729.0 723.8 Z" fill="#8C9A8D" opacity="0.35"/><circle cx="756.2" cy="919.7" r="161.6" fill="none" stroke="#8C9A8D" stroke-width="1" opacity="0.4"/><circle cx="489.0" cy="394.5" r="271.3" fill="none" stroke="#C9BBA8" stroke-width="1" opacity="0.4"/><line x1="0" y1="275.2" x2="1000" y2="215.2" stroke="#8C9A8D" stroke-width="0.6" opacity="0.25"/><rect width="1000" height="1200" fill="transparent" filter="url(#grain-portrait-portrait)"/></svg>

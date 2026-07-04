@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>HAZE 日记</title>
+    <link>https://95plus8-prog.github.io/haze-travel-diary/journal.html</link>
+    <description>关于如何维护一本手绘旅行日记的随笔——创作过程、风格统一,以及工作室日常。</description>
+    <language>zh-cn</language>
+    <item>
+      <title>春日工作室笔记</title>
+      <link>https://95plus8-prog.github.io/haze-travel-diary/journal/studio-notes-spring.html</link>
+      <guid>https://95plus8-prog.github.io/haze-travel-diary/journal/studio-notes-spring.html</guid>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description>一堆还没画完的旅程,以及决定下一篇画哪个的标准。</description>
+    </item>
+    <item>
+      <title>画到第八卷</title>
+      <link>https://95plus8-prog.github.io/haze-travel-diary/journal/eight-volumes-in.html</link>
+      <guid>https://95plus8-prog.github.io/haze-travel-diary/journal/eight-volumes-in.html</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+      <description>关于如何在毫无共同点的几趟旅程之间,保持同一种画风。</description>
+    </item>
+    <item>
+      <title>为什么要照着照片画</title>
+      <link>https://95plus8-prog.github.io/haze-travel-diary/journal/on-drawing-from-photos.html</link>
+      <guid>https://95plus8-prog.github.io/haze-travel-diary/journal/on-drawing-from-photos.html</guid>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 GMT</pubDate>
+      <description>一张已经存在的照片,为什么还值得用手重新画一遍。</description>
+    </item>
+  </channel>
+</rss>

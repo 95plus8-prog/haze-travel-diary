@@ -1,0 +1,12 @@
+{
+  "name": "HAZE — 手绘旅行日记",
+  "short_name": "HAZE",
+  "description": "故事,生长在沉默与想象之间。",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

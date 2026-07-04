@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://95plus8-prog.github.io/haze-travel-diary/sitemap.xml

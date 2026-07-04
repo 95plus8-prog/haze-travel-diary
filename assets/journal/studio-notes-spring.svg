@@ -1,0 +1,14 @@
+<svg viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><rect width="1600" height="1000" fill="#EFEDE6"/><defs>
+      <radialGradient id="g-studio-notes-spring-journal" cx="65%" cy="34%" r="90%">
+        <stop offset="0%" stop-color="#6E8CA0" stop-opacity="0.72"/>
+        <stop offset="100%" stop-color="#EFEDE6" stop-opacity="0"/>
+      </radialGradient>
+      
+    <filter id="grain-studio-notes-spring-journal">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="13" result="noise"/>
+      <feColorMatrix in="noise" type="matrix"
+        values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.02 0"/>
+      <feComposite operator="over" in2="SourceGraphic"/>
+    </filter>
+
+    </defs><rect width="1600" height="1000" fill="url(#g-studio-notes-spring-journal)"/><path d="M 1166.3 452.6 Q 1166.3 452.6 1158.7 616.5 Q 1151.1 780.4 987.2 773.0 Q 823.4 765.7 699.6 732.9 Q 575.9 700.1 487.6 576.3 Q 399.3 452.6 480.7 322.0 Q 562.1 191.3 692.7 164.5 Q 823.4 137.6 967.3 151.1 Q 1111.3 164.6 1138.8 308.6 Z" fill="#C9D6C0" opacity="0.55"/><path d="M 942.7 297.3 Q 942.7 297.3 903.1 370.0 Q 863.5 442.7 775.8 449.1 Q 688.2 455.5 660.8 376.4 Q 633.5 297.3 664.8 225.1 Q 696.1 152.9 775.4 160.0 Q 854.7 167.1 898.7 232.2 Z" fill="#6E8CA0" opacity="0.35"/><circle cx="407.5" cy="123.3" r="286.9" fill="none" stroke="#6E8CA0" stroke-width="1" opacity="0.4"/><circle cx="561.8" cy="589.7" r="262.6" fill="none" stroke="#C9D6C0" stroke-width="1" opacity="0.4"/><circle cx="905.0" cy="458.3" r="285.2" fill="none" stroke="#6E8CA0" stroke-width="1" opacity="0.4"/><line x1="0" y1="827.3" x2="1600" y2="777.3" stroke="#6E8CA0" stroke-width="0.6" opacity="0.25"/><rect width="1600" height="1000" fill="transparent" filter="url(#grain-studio-notes-spring-journal)"/></svg>
